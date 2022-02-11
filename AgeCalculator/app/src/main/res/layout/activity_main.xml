@@ -5,17 +5,82 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".MainActivity"
+    android:orientation="vertical"
     android:gravity="center_horizontal"
+    android:padding="10dp"
     android:background="@color/bgColor">
 
     <TextView
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="16dp"
-        android:text="Calculate your"
+        android:text="CALCULATE YOUR"
+        android:textColor="@color/textColor"
+        android:textColorLink="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="AGE"
+        android:padding="10dp"
+        android:background="@color/ageBg"
+        android:textColor="@color/white"
+        android:textColorLink="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="IN MINUTES"
         android:textColor="@color/textColor"
         android:textColorLink="@color/textColor"
         android:textSize="25sp"
         android:textStyle="bold"/>
 
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:backgroundTint="@color/bgBtn"
+        android:textColor="@color/white"
+        android:text="SELECT DATE" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="31.01.2021"
+        android:textColor="@color/textColor"
+        android:textColorLink="@color/textColor"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/selectDate"
+        android:textColorLink="@color/selectDate"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="1400000"
+        android:textColor="@color/textColor"
+        android:textColorLink="@color/textColor"
+        android:textSize="25sp"
+        android:textStyle="bold"/>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="16dp"
+        android:text="Selected Date"
+        android:textColor="@color/selectDate"
+        android:textColorLink="@color/selectDate"
+        android:textSize="15sp"
+        android:textStyle="bold"/>
 </LinearLayout>

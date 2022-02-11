@@ -9,4 +9,7 @@
     <color name="white">#FFFFFFFF</color>
     <color name="textColor">#fb8500</color>
     <color name="bgColor">#023047</color>
+    <color name="ageBg">#8ECAE6</color>
+    <color name="bgBtn">#8BC34A</color>
+    <color name="selectDate">#9EA695</color>
 </resources>
