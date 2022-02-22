@@ -10,12 +10,6 @@ object Constant {
                 "Armenia", "Austria", 1
             ),
             Question(
-                1, "What country does this flag belong to?",
-                R.drawable.ic_flag_of_argentina,
-                "Argentina", "Australia",
-                "Armenia", "Austria", 1
-            ),
-            Question(
                 2, "What country does this flag belong to?",
                 R.drawable.ic_flag_of_australia,
                 "Angola", "Austria",
