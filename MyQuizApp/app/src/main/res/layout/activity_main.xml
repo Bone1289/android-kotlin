@@ -62,7 +62,7 @@
                     android:layout_height="wrap_content"
                     android:hint="e.g. John"
                     android:inputType="textCapWords"
-                    android:textColor="#363A43"
+                    android:textColor="@color/text_color"
                     android:textColorHint="#7A8089" />
 
                 <Button
