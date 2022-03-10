@@ -20,6 +20,8 @@ class QuizQuestionsActivity : AppCompatActivity(), View.OnClickListener {
 
     private var mUsername: String? = null
 
+
+
     private var buttonSubmit: Button? = null
     private var progressBar: ProgressBar? = null
     private var tvProgress: TextView? = null
