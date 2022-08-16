@@ -50,13 +50,14 @@ class DrawView(context: Context, attrs: AttributeSet) : View(context, attrs) {
             canvas?.drawBitmap(it, 0f, 0f, mCanvasPaint)
         }
 
-//        for (p in mPaths) {
-//            mDrawPaint?.let {
-//                it.strokeWidth = p.brushThickness
-//                it.color = p.color
-//                canvas?.drawPath(p, it)
-//            }
-//        }
+        for (p in mPaths) {
+            mDrawPaint?.let {
+                it.strokeWidth = p.brushThickness
+                it.color = p.color
+                canvas?.drawPath(p, it)
+            }
+        }
+
         mDrawPaint?.let { paint ->
             mDrawPath?.let { customPath ->
                 if (!customPath.isEmpty) {
